@@ -11,7 +11,7 @@
 #define PARAM7 0b01000000
 #define PARAM8 0b10000000
 
-void DoStuff(int _settings)
+void DoStuff(byte _settings)
 {
 	/* in order to get the value of every single bit (corresponding to a boolean),
 	* we :
